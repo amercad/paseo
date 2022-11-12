@@ -3,6 +3,7 @@ package com.example.paseo;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -112,6 +113,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void cancelar(View view) {
         limpiarCampos();
+    }
+
+    public void listar(View view) {
+        Intent intListar = new Intent(this, ListarActivity.class);
+        startActivity(intListar);
     }
 
     private void limpiarCampos() {

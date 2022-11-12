@@ -144,6 +144,18 @@
             android:onClick="cancelar"
             android:text="Cancelar"
             android:textSize="25dp" />
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="listar"
+        android:text="Consulta general"
+        android:textSize="20dp"
+        app:cornerRadius="20dp" />
 
 </LinearLayout>
